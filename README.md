@@ -6,13 +6,13 @@ code snippets, related files and examples of how they can be used.
 <sub>Important: These are not production tested and should be implemented at your
 own risk,</sub>
 
-### GeoIP based routing Snippets
+### GeoIP based routing
+
+<hr>
 
 #### Route traffic based on subnet
 
-##### Use case:
-
-Route traffic based on the requesters specific IP.
+Route traffic based on the requesters specific IP address.
 
 ```
 geo $to_specific_web {
