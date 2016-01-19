@@ -8,7 +8,7 @@ own risk,</sub>
 
 <hr>
 
-### GeoIP based routing
+### GeoIP module configurations
 
 <hr>
 
@@ -33,6 +33,26 @@ server {
 
     location @specific  {
         proxy_pass http://specific_web;
+    }
+}
+```
+
+<hr>
+
+### Security configurations
+
+<hr>
+
+#### Block specific query string
+
+This can be used to block specific query strings known to be malicous. Example
+inlcuded blocks cross site scripting (XSS),
+
+```
+server {
+    ...
+    if ($query_string ~ "(<|%3C).*script.*(>|%3E)") {
+        return 403;
     }
 }
 ```
