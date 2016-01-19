@@ -1,10 +1,15 @@
-# NGINX Snippets
+# NGINX Code Snippets and Examples
 
 A collection of various useful NGINX and NGINX Plus configuration
 code snippets, related files and examples of how they can be used.
 
-<sub>**Important:** These are not production tested and should be implemented at your
-own risk,</sub>
+<sub>**Important:** These are not production tested and should be tested
+thoroughly and implemented at your own risk,</sub>
+
+#### Index
+
+- [GeoIP](https://github.com/kmjones1979/nginx-snippets#geoip-module-configurations)
+- [Security](https://github.com/kmjones1979/nginx-snippets#security-configurations)
 
 <hr>
 
