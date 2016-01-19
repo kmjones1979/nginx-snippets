@@ -6,11 +6,13 @@ code snippets, related files and examples of how they can be used.
 <sub>Important: These are not production tested and should be implemented at your
 own risk,</sub>
 
-<h1> GeoIP based routing Snippets </h1>
+### GeoIP based routing Snippets
 
-<h2> Route traffic based on subnet </h2>
+#### Route traffic based on subnet
 
-<h3> Use case: </h3> Route traffic based on the requesters specific subnet range.
+##### Use case:
+
+Route traffic based on the requesters specific IP.
 
 ```
 geo $to_specific_web {
