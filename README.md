@@ -6,8 +6,6 @@ code snippets, related files and examples of how they can be used.
 <sub>**Important:** These are not production tested and should be tested
 thoroughly and implemented at your own risk,</sub>
 
-#### Index
-
 - [GeoIP](https://github.com/kmjones1979/nginx-snippets#geoip-module-configurations)
 - [Security](https://github.com/kmjones1979/nginx-snippets#security-configurations)
 
